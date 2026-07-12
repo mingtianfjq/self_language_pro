@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+.venv/
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Training Outputs
+runs/
+logs/
+checkpoints/
+outputs/
+
+# PyTorch
+*.pt
+*.pth
+*.ckpt
+
+# TensorBoard
+events.out.tfevents.*
+
+# Testing
+.pytest_cache/
+
+# Ruff
+.ruff_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Data
+data/
+
+# Temporary
+tmp/
+temp/
