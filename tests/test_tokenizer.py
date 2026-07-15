@@ -1,8 +1,3 @@
-from pathlib import Path
-import sys
-
-sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-
 from tokenizers import WordTokenizer
 
 def test_world_tokenizer():
@@ -14,3 +9,6 @@ def test_world_tokenizer():
     ids = tokenizer.encode(test_text)
     recoverd_text = tokenizer.decode(ids)
     assert recoverd_text == test_text
+    assert tokenizer.token_to_id['<PAD>'] == 0
+    ids = tokenizer.encode("I love ChatGPT")
+    assert ids == [3, 3, 3]
