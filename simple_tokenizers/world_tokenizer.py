@@ -1,5 +1,4 @@
 
-
 import json
 
 
@@ -9,7 +8,6 @@ EOS_TOKEN = "<EOS>"
 UNK_TOKEN = "<UNK>"
 
 SPECIAL_TOKENS = [PAD_TOKEN, BOS_TOKEN, EOS_TOKEN, UNK_TOKEN]
-
 
 
 

@@ -1,4 +1,4 @@
-from tokenizers import WordTokenizer
+from simple_tokenizers import WordTokenizer
 
 def test_world_tokenizer():
     tokenizer = WordTokenizer()
